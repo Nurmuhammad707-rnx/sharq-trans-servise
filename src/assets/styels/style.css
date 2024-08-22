@@ -2,6 +2,7 @@
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
+    border: 1px solid red;
 }
 
 .container {
@@ -378,6 +379,7 @@ ul {
 .icon__box {
     width: 325px;
     height: 138px;
+    /*  */
     margin-top: 25px;
 }
 

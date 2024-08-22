@@ -104,9 +104,11 @@ function Header() {
               </p>
             </div>
             <button className="section__second-button">
-              {explore.map((explore, i) => (
+              <p className="explore__more-in">
+                {explore.map((explore, i) => (
                 <NavLink to={explore.path} key={i}>{explore.name}</NavLink>
               ))}
+              </p>
             </button>
           </div>
         </section>
