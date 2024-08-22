@@ -88,41 +88,41 @@ const About = () => {
       </header>
 
 
-      <footer class="footer-icon">
-        <div class="footer__info">
-          <p class="footer__text">
+      <footer className="footer-icon">
+        <div className="footer__info">
+          <p className="footer__text">
             Leverage agile frameworks to provide a robust synopsis for strategy
             collaborative thinking to further the overall value proposition.
           </p>
-          <div class="footer__icons-two">
-            <div class="footer__icon">
+          <div className="footer__icons-two">
+            <div className="footer__icon">
               <img src={img3} alt="" className="footer__email" />
-              <h4 class="footer__tell-text">Email contact@logistics.com</h4>
+              <h4 className="footer__tell-text">Email contact@logistics.com</h4>
             </div>
-            <div class="footer__icon">
-              <img src={img2} alt="" class="footer__tell" />
-              <h4 class="footer__tell-text">Call Us (00) 112 365 489</h4>
+            <div className="footer__icon">
+              <img src={img2} alt="" className="footer__tell" />
+              <h4 className="footer__tell-text">Call Us (00) 112 365 489</h4>
             </div>
           </div>
         </div>
       </footer>
-      <div class="footer__line"></div>
-      <footer class="footer">
-        <h1 class="footer__owner">
+      <div className="footer__line"></div>
+      <footer className="footer">
+        <h1 className="footer__owner">
           Copyright © SHARQ-TRANS-SERVIS | Designed by VictorFlow - Powered by
           Webflow.
         </h1>
-        <div class="footet__main">
-          <a href="" class="adds">
+        <div className="footet__main">
+          <a href="" className="adds">
             Style Guide
           </a>
-          <a href="" class="adds">
+          <a href="" className="adds">
             Licenses{" "}
           </a>
-          <a href="" class="adds">
+          <a href="" className="adds">
             Changelog
           </a>
-          <a href="" class="adds">
+          <a href="" className="adds">
             Password
           </a>
         </div>

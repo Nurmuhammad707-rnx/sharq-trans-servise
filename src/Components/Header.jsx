@@ -18,8 +18,8 @@ function Header() {
         <div className="header">
           <div className="header__title">
 
-            {title.map((title) => (
-              <h1 className="home__title">
+            {title.map((title, index) => (
+              <h1 className="home__title" key={index}>
                 <NavLink to={title.path}>{title.name}</NavLink>
               </h1>
             ))}
@@ -62,8 +62,8 @@ function Header() {
                 </span>
               </button>
               <ul className="bottom__title">
-                {router.map((router) => (
-                  <li className="bottom__li">
+                {router.map((router, index) => (
+                  <li className="bottom__li" key={index}>
                     <NavLink to={router.path}>{router.name}</NavLink>
                   </li>
                 ))}
@@ -73,8 +73,8 @@ function Header() {
               <button className="bottom__title2">
                 <a href="" className="bottom__title2-text">
                   {
-                  button.map((button) => (
-                    <NavLink to={button.path}>{button.name}</NavLink>
+                  button.map((button, i) => (
+                    <NavLink to={button.path} key={i}>{button.name}</NavLink>
                   ))
                  }
                 </a>
@@ -107,8 +107,8 @@ function Header() {
               {/* <a href="#" className="section__button-a">
                  Explore More
                </a> */}
-              {explore.map((explore) => (
-                <NavLink to={explore.path}>{explore.name}</NavLink>
+              {explore.map((explore, i) => (
+                <NavLink to={explore.path} key={i}>{explore.name}</NavLink>
               ))}
             </button>
           </div>
