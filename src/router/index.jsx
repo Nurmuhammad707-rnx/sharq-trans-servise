@@ -2,7 +2,7 @@ import About from "../pages/About";
 import Home from "../pages/Home";
 import MoreWork from "../pages/Morework";
 import Project from "../pages/Project";
-import Explore from "../pages/explore";
+import Explore from "../pages/Explore";
 
 // git add .
 // git commit -m "asd"
