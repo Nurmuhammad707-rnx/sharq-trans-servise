@@ -8,7 +8,7 @@ import img4 from "../assets/images/img4.png";
 // import Linkdin from "../assets/images/Linkdin.png";
 
 import React from "react";
-import { button, explore, router, title } from "../router/Index";
+import { button, explore, router, title } from "../router/index";
 import { NavLink } from "react-router-dom";
 
 function Header() {
@@ -104,9 +104,6 @@ function Header() {
               </p>
             </div>
             <button className="section__second-button">
-              {/* <a href="#" className="section__button-a">
-                 Explore More
-               </a> */}
               {explore.map((explore, i) => (
                 <NavLink to={explore.path} key={i}>{explore.name}</NavLink>
               ))}

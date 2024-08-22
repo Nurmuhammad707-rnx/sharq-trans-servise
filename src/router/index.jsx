@@ -4,7 +4,9 @@ import MoreWork from "../pages/Morework";
 import Project from "../pages/Project";
 import Explore from "../pages/explore";
 
-
+// git add .
+// git commit -m "asd"
+// git push
 
 export const router =[
     {
