@@ -1,0 +1,334 @@
+
+
+@media(max-width: 700px) {
+  .why__us{
+    width: 600px;
+  }
+}
+@media(max-width: 800px) {
+  .section__text-title{
+    width: auto;
+    position: relative;
+    left: 40px;
+  }
+  .footer__info{
+    gap: 200px;
+  }
+  .world__tour-images{
+    overflow-y: hidden ;
+
+  }
+  .world__tour-title{
+    font-size: 15px;
+  }
+  .about__team{
+    width: auto;
+    overflow-y: hidden;
+  }
+  .media__mistake{
+    height: 150px;
+    margin-top: 0;
+  }
+  
+}
+@media(max-width:900px) {
+  .world__tour-title{
+    width: auto;
+  }
+    .main__button{
+      margin-top: auto;
+      margin-bottom: 0;
+    }
+    .aaa{
+      margin-left: 320px;
+    }
+    .why__us{
+      width: 200px;
+      height: 400px;
+    }
+    .header__li{
+      width: 200px;
+      gap: 15px;
+    }
+    .people__picture{
+      display: block;
+      overflow-x: hidden;
+    }
+}
+@media (max-width: 1000px) {
+    
+    .header__title{
+      font-size: 10px;
+    }
+    .four__icon{
+      margin: 0;
+    }
+    .section__third{
+      width: auto;
+      overflow-x: hidden ;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      text-align: center;
+    }
+    .why__us{
+      display: block;
+      height: 680px;
+      width: 400px;
+      margin-top: -100px;
+    }
+    .margn{
+      width: 472px;
+      height: 436px;
+    }
+    .why__us-bgimg{
+      display: flex;
+      justify-content: center;
+    }
+    .world__tour{
+      width: auto;
+    }
+    .more__work{
+      width: 270px;
+    }
+    .staffes{
+      width: 270px;
+    }
+    .staff__picture{
+      width: 350px;
+      height: 350px;
+    }
+    .staff__info{
+      width: 350px;
+    }
+    .expert__team{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .people__picture{
+      width: auto;
+    }
+    .beetwen__line2,
+    .beetwen__line{
+      width: auto;
+      margin-top: 150px;
+    }
+    .footer__owner{
+      font-size: 12px;
+    }
+}
+@media (max-width: 1200px) {
+    .header__title{
+      width: 300px;
+      font-size: 13px;
+  
+    }
+    .staff__name{
+      width: 160px;
+    }
+    .why__us{
+      width: auto;
+    }
+    .about__team {
+      width: 100%;
+    }
+    .staffes{
+      width: 350px;
+  
+    }  
+}
+
+@media(max-width: 600px){
+  .four__icon{
+    display: grid;
+    grid-template-columns: none;
+  }
+  .beetwen__footer{
+    height: 300px;
+  }
+  .beetwen__line2{
+    margin-top: 0;
+  }
+  .footer__container{
+    height: 300px;
+  }
+  .footer__info{
+    gap: 30px;
+  }
+  .section__second-div{
+    height: 600px;
+  }
+  .section__third{
+    padding: 0;
+  }
+  .email{
+    display: none;
+  }
+  .clock{
+    display: none;
+  }
+  .tell{
+    display: none;
+  }
+  .header__clock2,
+  .header__clock{
+    height: 70px;
+    font-size: 10px;
+    width: 100px;
+  }
+  .section__title{
+    width: 400px;
+    height: 150px;
+    font-size: 40px;
+  }
+  .section__backround{
+    height: 600px;
+    
+  }
+  .aaa{
+    margin-top: 110px;
+  }
+  .section__text{
+    font-size: 40px;
+    width: 450px;
+    height: 200px;
+    margin-bottom: 15px;
+  }
+  .section__text-bottom{
+    width: 450px;
+    height: 80px;
+  }
+ 
+  .under__section{
+    margin-left: 110px;
+    position: relative;
+    left: -200px;
+    display: none;
+  }
+  .media__seven{
+    display: flex;
+    order: -1;
+  }
+  .header__bottom{
+    position: relative;
+  }
+  .bottom__title{
+    position: fixed;
+    flex-direction: column;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    background: #ffffff6e;
+    padding: 30px ;
+    gap: 0;
+    width: 150px;
+    height: 200px;
+    transition: 0.3s;
+    transform: translateX(-100%);
+  }
+  .section__second-button{
+    position: relative;
+    left: 40%;
+  }
+  .home__title{
+    font-size: 10px;
+    width: 120px;
+    height: 20px;
+    color: #fff;
+  }
+  .bottom__li{
+    padding-bottom: 30px;
+    font-size: 20px;
+  }
+  .media__seven:focus+.bottom__title{
+    transform: translateX(0);
+  }
+  .header__li{
+    width: 150px;
+  }
+} 
+@media(max-width: 500px){
+  .header__li {
+    width: 100px;
+  }
+  .section__second-button {
+    position: relative;
+    left: 45%;
+    width: 150px;
+    height: 50px;
+  }
+  .fly__girl{
+    width: 450px;
+    height: 360px;
+  }
+  .transport{
+    font-size: 25px;
+    width: 400px;
+  }
+  .footer-icon{
+    height: 400px;
+  }
+  .footer__info{
+    row-gap: 20px;
+    display: block;
+  }
+  .footer__container {
+    height: 250px;
+  }
+  .beetwen__footer{
+    height: 250px;
+  }
+  .header {
+    height: 110px;
+  }
+  .header__clock2,
+  .header__clock{
+    padding-top: 0;
+    height: 40px;
+  }
+  .header__li{
+    padding-top: 35px;
+    gap: 20px;
+  }
+  .header__title {
+    padding-top: 45px;
+  }
+  .bottom__title2 {
+      width: 170px;
+      height: 60px;
+      padding: 0;
+  }
+  .header__bottom {
+    height: 60px;
+  }
+  .section__backround {
+    margin-top: -60px;
+  }
+  .section__backround{
+    height: 450px;
+  }
+  .aaa{
+    margin-top: 210px;
+    
+  }
+  .section__second{
+    height: 430px;
+  }
+  .section__text {
+    font-size: 20px;
+    width: 250px;
+    margin-bottom: 0;
+    height: 150px;
+  }
+  .header__clock {
+    width: 80px;
+  }
+  .footer__icons-two{
+    padding-top: 15px;
+  }
+  .section__text-bottom {
+    width: 350px;
+    height: 120px;
+  }
+
+}
