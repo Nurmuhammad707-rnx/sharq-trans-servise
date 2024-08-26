@@ -89,7 +89,13 @@
   }
 }
 @media (max-width: 1000px) {
-    
+    .header__li{
+      width: 250px;
+    }
+    .map__p,
+    .map__h1{
+      width: 350px;
+    }
     .header__title{
       font-size: 10px;
     }
@@ -176,11 +182,9 @@
   .project__page{
     gap: 20px;
   }
+  .map__p,
   .map__h1{
-    width: 350px;
-  }
-  .map__p{
-    width: 350px;
+    width: 270px;
   }
   .world__tour-title{
     width: auto;
@@ -226,6 +230,30 @@
     }
 }
 @media(max-width: 800px) {
+  .section__second-div{
+    height: 50vh;
+  }
+  .map__h1{
+    width: 100%;
+  }
+  .map__p{
+    width: 300px;
+  }
+  .map__info{
+    width: 350px;
+    border: 1px solid gray;
+  }
+  .project__page{
+    display: block;
+    align-items: center;
+    justify-content: center;
+  }
+  .map{
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
   .section__text-title{
     width: auto;
     position: relative;
@@ -277,6 +305,7 @@
   
 }
 @media(max-width: 700px) {
+
   .why__us{
     width: 600px;
   }
@@ -287,7 +316,7 @@
     width: 220px;
   }
   .section__second-div{
-    height: 80vh;
+    height: 50vh;
   }
   .header__li{
     width: 150px;
@@ -304,31 +333,12 @@
   .section__backround{
     height: 850px;
   }
-  .map__h1{
-    width: 100%;
-    text-align: center;
-    font-size: 27px;
-  }
-  .map__p{
-    width: 400px;
-  }
-  .project__page{
-    display: block;
-      
-  }
-  .maps{
-    width: 100%;
-    margin-bottom: 35px;
-  }
-  .map__inform{
-    width: 500px;
-  }
+
+
+
 
 }
 @media(max-width: 600px){
-  .maps{
-    padding: 35px;
-  }
   .four__icon{
     display: grid;
     grid-template-columns: none;
@@ -455,9 +465,7 @@
     line-height: 50px;
     
   }
-  .map__inform{
-    width: 450px;
-  }
+
   .header__li {
     width: 100px;
   }
@@ -735,17 +743,17 @@
   
 }
 @media(max-width: 400px){
-  .map__inform{
-    width: 370px;
+  .map__h1{
+    font-size: 23px;
+    height: 30px;
+    width: 250px;
   }
   .map__p{
-    width: 365px;
-    height: 70px;
+    font-size: 13px;
   }
   .solution{
     font-size: 27px;
     width: 330px;
-    
   }
   .value{
     font-size: 13px;
@@ -948,22 +956,6 @@
     
 }
  @media(max-width: 350px){
-  .maps{
-    padding: 10px;
-  }
-    .map__h1{
-      width: 330px;
-      font-size: 23px;
-    }
-    .map__p{
-      text-align: center;
-      width: 330px;
-      font-size: 13px;
-      height: 50px;
-    }
-    .map__inform{
-      width: 330px;
-    }
     .margn{
       height: auto;
     }
@@ -1483,6 +1475,9 @@
   }
 }
 @media(max-width: 320px) {
+  .map__info{
+    width: 300px;
+  }
   .about__page-title{
     width: 300px;
     font-size: 25px;
@@ -1670,17 +1665,8 @@
   .about__team{
     height: 630px;
   }
-  .map__h1{
-    width: 300px;
-    font-size: 20px;
-  }
-  .map__p{
-    width: 300px;
-    font-size: 10px;
-  }
-  .map__inform{
-    width: 300px;
-  }
+
+
   .header__ul{
     width: 220px;
   }
