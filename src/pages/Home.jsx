@@ -16,6 +16,8 @@ import img16 from "../assets/images/img16.png";
 import img17 from "../assets/images/img17.png";
 import money from "../assets/images/money.png";
 import box from "../assets/images/box.png";
+import { NavLink } from "react-router-dom";
+import { button } from "../router";
 const Home = () => {
   return (
     <>
@@ -171,7 +173,11 @@ const Home = () => {
       <main className="media__mistake">
         <button className="main__button">
           <a href="" className="more__work">
-            More Work
+          {
+            button.map((button, i) => (
+            <NavLink to={button.path} key={i}>{button.name}</NavLink>
+            ))
+          }
           </a>
         </button>
       </main>

@@ -67,7 +67,7 @@ const About = () => {
         <div className="page1__title">About Our Logistics</div>
         <div className="about__us-page1">
           <div className="page1-img">
-            <img src={aboutImage} alt="" />
+            <img src={aboutImage} alt="" className="page1"/>
           </div>
           <div className="company__overview">
             <h1 className="overview__title">Our Company Overview</h1>

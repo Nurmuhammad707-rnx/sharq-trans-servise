@@ -30,7 +30,7 @@ export const router =[
 export const button =[
     
     {
-        path:'/morework',
+        path:'/about',
         element:<MoreWork/>,
         name:"More Work"
     }
@@ -38,7 +38,7 @@ export const button =[
 ]
 export const explore =[
     {
-        path:'/explore',
+        path:'/project',
         element:<Explore/>,
         name:"Explore More"
     }

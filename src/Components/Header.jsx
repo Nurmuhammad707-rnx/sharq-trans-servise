@@ -17,7 +17,6 @@ function Header() {
       <header>
         <div className="header">
           <div className="header__title">
-
             {title.map((title, index) => (
               <h1 className="home__title" key={index}>
                 <NavLink to={title.path}>{title.name}</NavLink>
@@ -29,26 +28,24 @@ function Header() {
               <li className="header__li">
                 <img src={img1} className="clock" alt="" />
                 <h3 className="header__clock">
-                  Mon - Sat 9.00 - 18.00
-                  <br />
-                  Sunday Closed
+                  Mon - Fri
+                  <br/> 9.00 - 18.00
                 </h3>
               </li>
               <li className="header__li">
                 <img src={img2} className="email" alt="" />
-                <h3 className="header__clock2">
+                <a href="mailto:sharqtransservis@gmail.com" className="header__clock2">
                   Email
-                  <br />
-                  contact@logistics.com
-                </h3>
+                  sharqtransservis
+                  <br/>
+                  @gmail.com
+                </a>
               </li>
               <li className="header__li">
                 <img src={img3} className="tell" alt="" />
-                <h3 className="header__clock">
-                  Call Us
-                  <br />
-                  (00) 112 365 489
-                </h3>
+                <a href="tel:+998977000708" className="header__clock">
+                +998977000708
+                </a>
               </li>
             </ul>
           </div>
