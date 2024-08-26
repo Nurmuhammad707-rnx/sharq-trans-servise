@@ -304,6 +304,39 @@
 
   
 }
+@media(max-width: 750px) {
+  .why__us {
+    width: 480px;
+    height: auto;
+  }
+  .home__title{
+    width: 200px;
+    font-size: 16px;
+  }
+  .clock,
+  .tell,
+  .email{
+    width: 60px;
+    height: 60px;
+  }
+  .header__ul{
+    width: 500px;
+  }
+  .header__li{
+    width: 150px;
+  }
+  .four__icon{
+    width: 700px;
+    gap: 30px;
+  }
+  .icon{
+    width: 350px;
+    gap: 10px;
+  }
+  .section__third{
+    width: 700px;
+  }
+}
 @media(max-width: 700px) {
 
   .why__us{
@@ -743,6 +776,18 @@
   
 }
 @media(max-width: 400px){
+  
+  .fly__girl{
+    width: 300px;
+    padding: 0;
+  }
+  .margn{
+    width: 350px;
+  }
+  .why__us{
+    width: 350px;
+    height: 650px;
+  }
   .map__h1{
     font-size: 23px;
     height: 30px;
@@ -760,9 +805,7 @@
     width: 370px;
     
   }
-  .margn{
-    width: 370px;
-  }
+
   .header__ul{
     width: 270px;
   }
@@ -770,13 +813,9 @@
     width: 60px;
     height: 50px;
   }
-  .fly__girl {
-    width: 370px;
-    position: relative;
-    right: -15px;
-  }
+
   .transport{
-      width: 370px;
+      width: 330px;
       font-size: 20px ;
   }
   .footer__owner{
